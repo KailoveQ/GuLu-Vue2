@@ -1,0 +1,23 @@
+{
+  "name": "gulu-demo",
+  "version": "0.0.1",
+  "description": "这是一个UI框架",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KailoveQ/GuLu-Vue2.git"
+  },
+  "keywords": [
+    "vue",
+    "ui"
+  ],
+  "author": "Kai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KailoveQ/GuLu-Vue2/issues"
+  },
+  "homepage": "https://github.com/KailoveQ/GuLu-Vue2#readme"
+}
