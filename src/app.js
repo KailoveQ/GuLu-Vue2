@@ -17,7 +17,6 @@ new Vue({
 
 import chai from 'chai'
 import spies from 'chai-spies'
-
 chai.use(spies)
 
 const expect = chai.expect
@@ -56,7 +55,7 @@ const expect = chai.expect
 
 //测试order===1？
 {
-  const div = document.createElement(div)
+  const div = document.createElement('div')
   document.body.appendChild(div)
   const Constructor = Vue.extend(Button)
   const vm = new Constructor({
@@ -75,7 +74,7 @@ const expect = chai.expect
 
 //测试order===2？
 {
-  const div = document.createElement(div)
+  const div = document.createElement('div')
   document.body.appendChild(div)
   const Constructor = Vue.extend(Button)
   const vm = new Constructor({
@@ -93,7 +92,7 @@ const expect = chai.expect
   vm.$destroy()
 }
 
-//测试click事件？采用mork
+//测试click事件？采用 mork
 {
   const Constructor = Vue.extend(Button)
   const vm = new Constructor({
