@@ -25,3 +25,13 @@ npx parcel index.html --no-cache
 ```
  npm i -D chai-spies
 ```
+
+## 框架搭建 & 持续集成（下）
+
+Windows 用户运行 `npm run dev-test` 时会出现 BUG，貌似是因为 Windows 不支持 `&&` 符号，解决办法是：
+
+将 `dev-test` 对应的命令 `parcel watch test/* --no-cache & karma start` 分别运行，运行方式如下
+
+新开一个 Git Bash 窗口运行 `npx parcel watch test/* --no-cache`
+
+再开一个 Git Bash 窗口运行 `npx karma start`

@@ -10,8 +10,11 @@
   </button>
 </template>
 <script>
+import Icon from './icon'
 export default {
-  // props: ['icon', 'iconPosition'] //要么是 left  right
+  components: {
+    'g-icon': Icon
+  },
   props: {
     icon: {},
     loading: {
