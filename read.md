@@ -19,3 +19,9 @@ npx parcel index.html --no-cache
 ```
  npm i -D chai@4.1.2
 ```
+
+测试click事件需要用 spy（间谍）
+
+```
+ npm i -D chai-spies
+```
