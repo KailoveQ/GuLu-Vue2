@@ -10,7 +10,17 @@
 </template>
 <script>
 export default {
-  props: ['icon', 'iconPosition'] //要么是 left  right
+  // props: ['icon', 'iconPosition'] //要么是 left  right
+  props: {
+    icon: {},
+    iconPosition: {
+      type: String,
+      default: 'left',
+      validator(value) {
+        return !(value !== 'left' && value !== 'right')
+      }  //Vue 的属性检查器
+    }
+  }
 }
 </script>
 <style lang="scss">
