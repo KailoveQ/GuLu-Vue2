@@ -1,8 +1,24 @@
 <template>
-  <button class="g-button">按钮</button>
+  <button v-if="iconPosition==='right'" class="g-button">
+    <slot></slot>
+    <svg v-if="icon" class="icon" aria-hidden="true">
+      <use :xlink:href="`#i-${icon}`"></use>
+    </svg>
+  </button>
+
+  <button v-else class="g-button">
+
+    <svg v-if="icon" class="icon" aria-hidden="true">
+      <use :xlink:href="`#i-${icon}`"></use>
+    </svg>
+    <slot></slot>
+  </button>
+
 </template>
 <script>
-  export default {}
+export default {
+  props: ['icon', 'iconPosition'] //要么是 left  right
+}
 </script>
 <style lang="scss">
   .g-button {
