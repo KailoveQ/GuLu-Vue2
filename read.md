@@ -7,6 +7,7 @@ rm -rf .cache
 ./node_modules/.bin/parcel index.html --no-cache
 
 npx parcel index.html --no-cache
+// 已经在start中写了 npm start 也可以实现
 
 ```
 
