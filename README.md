@@ -61,7 +61,15 @@
 ## 提问
 
 ## 变更记录
+* 0.0.1版本 ：没有转译 --no-minify 样式不见了
 
+  button轮子 icon轮子 button-group轮子
+* 0.0.2版本 ：dist/css发布
+
+  button轮子 icon轮子 button-group轮子
+* 0.0.3版本 ：用户不在需要依靠引入轮子的 iconfount
+
+  button轮子 icon轮子 button-group轮子
 ## 联系方式
 
 ## 贡献代码
