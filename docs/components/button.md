@@ -1,4 +1,5 @@
 ---
+
 title: 'Button - 按钮'
 ---
 
@@ -16,9 +17,9 @@ title: 'Button - 按钮'
 ```vue
 
 <i-button>默认按钮</i-button>
-<i-button icon="settings">默认按钮</i-button>
-<i-button :loading="true">默认按钮</i-button>
-<i-button disabled>默认按钮</i-button>
+<i-button >默认按钮</i-button>
+<i-button >默认按钮</i-button>
+<i-button >默认按钮</i-button>
 ```
 
 ## 选项

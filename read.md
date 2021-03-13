@@ -42,6 +42,16 @@ npm 使用淘宝源  `npm config set registry https://registry.npm.taobao.org`
 `npx parcel build index.js --no-cache --no-minify`
 如果嫌切换不方便，可以安装 [nrm](https://github.com/Pana/nrm) 来快速切换源。
 
-npx vuepress dev docs 报错如何解决 报错主要是因为 npm 比较傻逼，用 yarn 代替 npm 即可。
+## npx vuepress dev docs 报错如何解决
 
-rm -rf node_modules 搜 yarn ，找到官网，按说明安装 yarn（不要用 npm i -g yarn 来安装 yarn，因为 npm 傻逼） yarn install npx vuepress dev docs 不报错
+报错主要是因为 npm 比较傻逼，用 yarn 代替 npm 即可。
+
+```
+rm -rf node_modules
+``
+搜 yarn ，找到官网，按说明安装 yarn（不要用 npm i -g yarn 来安装 yarn，因为 npm 傻逼）
+```
+
+yarn install npx vuepress dev docs 不报错
+
+```
