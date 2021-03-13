@@ -41,9 +41,11 @@
     "mocha": "^8.3.1",
     "parcel-bundler": "^1.12.3",
     "sass": "^1.32.8",
+    "sass-loader": "^7.1.0",
     "sinon": "^9.2.4",
     "sinon-chai": "^3.5.0",
-    "vue-template-compiler": "^2.6.12"
+    "vue-template-compiler": "^2.6.12",
+    "vuepress": "^0.13.1"
   },
   "alias": {
     "vue": "./node_modules/vue/dist/vue.common.js"
