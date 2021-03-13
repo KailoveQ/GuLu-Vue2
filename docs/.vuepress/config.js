@@ -1,6 +1,6 @@
 module.exports = {
-  base: '/Rich-ui/',
-  title: 'Rich UI',
+  base: '/Bear-UI/',
+  title: 'Bear UI',
   description: '一个好用的 UI 框架',
   themeConfig: {
     displayAllHeaders: true,
