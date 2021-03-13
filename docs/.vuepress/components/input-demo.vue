@@ -7,25 +7,25 @@
     <br>
     <g-input :value="xxx"></g-input>
     <br>
-    <span>value:&nbsp;{{ xxx }}</span>
+    <span>value:&nbsp;{{xxx}}</span>
   </div>
 </template>
 
 <script>
-import Input from '../../../src/input'
+  import Input from '../../../src/input'
 
-export default {
-  data() {
-    return {xxx: '双向绑定'}
-  },
-  components: {'g-input': Input}
-}
+  export default {
+    data(){
+      return{ xxx:'双向绑定' }
+    },
+    components: { 'g-input': Input }
+  }
 </script>
 
 <style lang="scss" scoped>
-@import "../styles/helper";
+  @import "../styles/helper";
 
-.input-wrapper {
-  padding-top: $wrapper-top;
-}
+  .input-wrapper {
+    padding-top: $wrapper-top;
+  }
 </style>

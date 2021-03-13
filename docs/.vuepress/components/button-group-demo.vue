@@ -9,20 +9,18 @@
 </template>
 
 <script>
-import ButtonGroup from '../../../src/button-group'
-import Button from '../../../src/button'
-
-export default {
-  components: {
-    'g-button': Button,
-    'g-button-group': ButtonGroup
+  import ButtonGroup from '../../../src/button-group'
+  import Button from '../../../src/button'
+  export default {
+    components:{
+      'g-button':Button,
+      'g-button-group':ButtonGroup
+    }
   }
-}
 </script>
 <style lang="scss" scoped>
-@import "../styles/helper";
-
-.group-wrapper {
-  padding-top: $wrapper-top;
-}
+  @import "../styles/helper";
+  .group-wrapper{
+    padding-top: $wrapper-top;
+  }
 </style>

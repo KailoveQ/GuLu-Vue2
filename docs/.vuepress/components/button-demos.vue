@@ -1,10 +1,10 @@
 <template>
   <div class="button-wrapper">
     <g-button>默认按钮</g-button>
-    <g-button>默认按钮</g-button>
-    <g-button>默认按钮</g-button>
-    <g-button>默认按钮</g-button>
-    <g-button>默认按钮</g-button>
+    <g-button >默认按钮</g-button>
+    <g-button >默认按钮</g-button>
+    <g-button >默认按钮</g-button>
+    <g-button >默认按钮</g-button>
   </div>
 </template>
 

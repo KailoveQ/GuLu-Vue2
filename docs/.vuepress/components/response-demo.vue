@@ -5,21 +5,18 @@
 </template>
 
 <script>
-import Col from '../../../src/col'
-import Row from '../../../src/row'
+  import Col from '../../../src/col'
+  import Row from '../../../src/row'
 
-export default {
-  components: {
-    'g-col': Col,
-    'g-row': Row
-  },
-}
+  export default {
+    components: {
+      'g-col': Col,
+      'g-row': Row
+    },
+  }
 </script>
 
 <style lang="scss" scoped>
-@import "../styles/helper";
-
-.response-wrapper {
-  padding-top: $wrapper-top;
-}
+  @import "../styles/helper";
+  .response-wrapper { padding-top: $wrapper-top; }
 </style>

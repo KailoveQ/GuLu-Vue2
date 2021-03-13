@@ -22,37 +22,26 @@
 </template>
 
 <style lang="scss" scoped>
-@import "../styles/helper";
+  @import "../styles/helper";
 
-.grid-wrapper {
-  > .row {
-    padding: .2em;
-
-    > .item {
-      text-align: center;
-      color: $font-color;
-
-      &:nth-child(odd) {
-        background: $background;
-      }
-
-      &:nth-child(even) {
-        background: lighten($background, 20%);
-        color: $font-color;
+  .grid-wrapper{
+    > .row{ padding: .2em;
+      > .item { text-align: center; color: $font-color;
+        &:nth-child(odd){ background: $background; }
+        &:nth-child(even){ background: lighten($background,20%); color: $font-color; }
       }
     }
   }
-}
 </style>
 
 <script>
-import Col from '../../../src/col'
-import Row from '../../../src/row'
+  import Col from '../../../src/col'
+  import Row from '../../../src/row'
 
-export default {
-  components: {
-    'g-col': Col,
-    'g-row': Row
+  export default {
+    components: {
+      'g-col': Col,
+      'g-row': Row
+    }
   }
-}
 </script>

@@ -22,15 +22,15 @@
 </template>
 
 <script>
-import Popover from '../../../src/popover'
-import Button from '../../../src/button'
+  import Popover from '../../../src/popover'
+  import Button from '../../../src/button'
 
-export default {
-  components: {
-    'g-popover': Popover,
-    'g-button': Button
+  export default {
+    components:{
+      'g-popover':Popover,
+      'g-button': Button
+    }
   }
-}
 </script>
 
 <style lang="scss" scoped>

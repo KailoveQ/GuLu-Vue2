@@ -12,39 +12,39 @@
 </template>
 
 <script>
-import Vue from 'vue'
-import Toast from '../../../src/toast'
-import Button from '../../../src/button'
-import plugin from '../../../src/plugin'
+  import Vue from 'vue'
+  import Toast from '../../../src/toast'
+  import Button from '../../../src/button'
+  import plugin from '../../../src/plugin'
 
-Vue.use(plugin)
-export default {
-  components: {'g-toast': Toast, 'g-button': Button},
-  methods: {
-    auto() {
-      this.$toast('我是 toast 内容', {
-        zIndex: 30,
-        autoClose: 5,
-        closeButton: {
-          text: '确定',
-          callback: () => {
+  Vue.use(plugin)
+  export default {
+    components: {'g-toast': Toast, 'g-button': Button},
+    methods: {
+      auto() {
+        this.$toast('我是 toast 内容', {
+          zIndex:30,
+          autoClose: 5,
+          closeButton: {
+          text:'确定',
+            callback:()=>{
             console.log('回调的输出')
-          }
-        },
-        enableHTML: true
-      })
-    },
-    top() {
-      this.$toast('我是 toast 内容', {position: 'top'})
-    },
-    middle() {
-      this.$toast('我是 toast 内容', {position: 'middle'})
-    },
-    bottom() {
-      this.$toast('我是 toast 内容', {position: 'bottom'})
-    },
+            }
+          },
+          enableHTML:true
+        })
+      },
+      top(){
+        this.$toast('我是 toast 内容', { position: 'top' })
+      },
+      middle(){
+        this.$toast('我是 toast 内容', { position: 'middle' })
+      },
+      bottom(){
+        this.$toast('我是 toast 内容', { position: 'bottom' })
+      },
+    }
   }
-}
 </script>
 
 <style lang="scss" scoped>
