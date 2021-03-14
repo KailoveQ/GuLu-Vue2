@@ -1,10 +1,14 @@
 <template>
-  <div class="header">
-    <slot></slot>
+  <div class="header-wrapper">
+    <slot />
   </div>
 </template>
+<script>
+export default {
+  name: 'GuluHeader'
+}
+</script>
 
 <style lang="scss" scoped>
-.header {
-}
+
 </style>

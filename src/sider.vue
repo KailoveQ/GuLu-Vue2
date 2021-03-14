@@ -1,8 +1,8 @@
 <template>
   <transition name="slide">
-    <div class="sider" v-if="visible">
+    <div class="sider-wrapper " v-if="visible">
       <slot></slot>
-      <button @click="visible=false">close</button>
+<!--      <button @click="visible=false">close</button>-->
     </div>
   </transition>
 </template>
@@ -18,7 +18,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.sider {
+.sider-wrapper {
   position: relative;
 
   > button {

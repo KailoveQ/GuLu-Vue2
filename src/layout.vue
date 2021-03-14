@@ -1,5 +1,5 @@
 <template>
-  <div class="layout" :class="layoutClass">
+  <div class="layout-wrapper" :class="layoutClass">
     <slot></slot>
   </div>
 </template>
@@ -24,7 +24,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.layout {
+.layout-wrapper {
   flex-grow: 1;
   display: flex;
   flex-direction: column;
