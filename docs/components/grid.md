@@ -1,11 +1,14 @@
 ---
-title: 'Grid'
+
+title: 'Grid - 栅格'
 
 ---
 # 栅格
-## 24 栅格系统
-### 预览
-
+### 24 栅格系统 预览
+&nbsp;
+<ClientOnly>
+<grid-demo></grid-demo>
+</ClientOnly>
 ### 使用方法
 ```html
     <g-row class="row">

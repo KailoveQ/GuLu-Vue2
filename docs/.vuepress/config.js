@@ -24,10 +24,10 @@ module.exports = {
         sidebarDepth: 0,    // 可选的, 默认值是 1
         children: [
           '/components/button',
-          '/components/tabs',
           '/components/input',
           '/components/grid',
           '/components/layout',
+          '/components/tabs',
           '/components/toast',
           '/components/popover',
         ],
