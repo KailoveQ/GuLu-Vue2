@@ -9,7 +9,6 @@
     <g-button icon="thumbs-up">点赞</g-button>
     <g-button :loading="true">加载按钮</g-button>
     <g-button disabled>不可点击</g-button>
-
     <p>
       <strong>代码</strong>
     </p>

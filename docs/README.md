@@ -1,7 +1,7 @@
 ---
 home: true 
-heroImage: /Rich-ui.png 
-heroText: Rich UI 官网 
+heroImage: /bear-ui.png 
+heroText: bear UI 官网 
 tagline: 一个简单好用的 UI 组件库 
 actionText: 快速上手 → 
 actionLink: /install/
