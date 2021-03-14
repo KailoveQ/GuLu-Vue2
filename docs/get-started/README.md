@@ -1,5 +1,7 @@
 ---
 title: '快速上手'
+
+sidebarDepth: 2
 ---
 
 # 快速上手
@@ -7,8 +9,8 @@ title: '快速上手'
 ## 引入必要资源
 
 ```javascript
-import {Button} from "init-ui-demo";
-import "init-ui-demo/dist/index.css";
+import {Button} from "bear-ui-demo";
+import "bear-ui-demo/dist/index.css";
 ```
 
 ## 注册组件
@@ -17,7 +19,7 @@ import "init-ui-demo/dist/index.css";
 export default {
   name: "ComponentName",
   components: {
-    "i-button": Button,
+    "g-button": Button,
   },
 }
 ```
@@ -30,7 +32,7 @@ export default {
 
 <template>
   <div>
-    <i-button>默认按钮</i-button>
+    <g-button>默认按钮</g-button>
   </div>
 </template>
 ```
