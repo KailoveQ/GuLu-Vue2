@@ -21,7 +21,7 @@ module.exports = {
       {
         title: '组件',
         collapsable: false, // 可选的, 默认值是 true,
-        sidebarDepth: 0,    // 可选的, 默认值是 1
+        sidebarDepth: 2,    // 可选的, 默认值是 1
         children: [
           '/components/button',
           '/components/input',

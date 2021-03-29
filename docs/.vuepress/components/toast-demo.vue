@@ -1,5 +1,6 @@
 <template>
   <div>
+    <h2>预览</h2>
     <g-button @click="auto">设置 zIndex</g-button>&nbsp;&nbsp;
     <g-button @click="auto">会自动关闭</g-button>&nbsp;&nbsp;
     <g-button @click="auto">点击按钮才关闭</g-button>&nbsp;&nbsp;
@@ -8,6 +9,7 @@
     <g-button @click="top">上方弹出</g-button>
     <g-button @click="middle">中间弹出</g-button>
     <g-button @click="bottom">下方弹出</g-button>
+    <h2>使用方法</h2>
   </div>
 </template>
 

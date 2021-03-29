@@ -2,13 +2,12 @@
 title: 'Toast - 弹出提示框'
 ---
 # 弹出提示框
-## 预览
+
 &nbsp;
 <ClientOnly>
 <toast-demo></toast-demo>
 </ClientOnly>
 
-## 使用方法
 想要使用 Toast 组件，首先需要引入该组件,然后使用 Vue 官方文档中插件的使用方法使用该插件。  
 代码
 ```vue
@@ -61,9 +60,11 @@ title: 'Toast - 弹出提示框'
      }
    </script>
 ```
+&nbsp;
+<ClientOnly>
+<toast-demo-2></toast-demo-2>
+</ClientOnly>
 
-
-## 选项
 1. zIndex  
    此选项用于设定 Toast 组件在当前堆叠上下文中的堆叠层级。默认为20。(这是因为再使用 vuepress 编写文档时发现值为 20 才有效。)  
    若你的项目不可见 Toast 组件，尝试传入一个 <span style='color:#3eaf7c;background-color:#F8F8F8'>zIndex </span> 试试。
