@@ -41,21 +41,21 @@ title: 'Grid - 栅格'
 ```vue
 <template>
   <div class="gutter-wrapper">
-    <i-row gutter="30">
-      <i-col class="item" span="8"> <span> col-8; gutter-30;</span> </i-col>
-      <i-col class="item" span="8"> <span> col-8; gutter-30;</span> </i-col>
-      <i-col class="item" span="8"> <span> col-8; gutter-30;</span> </i-col>
-    </i-row>
-    <i-row gutter="20">
-      <i-col class="item" span="8"> <span> col-8; gutter-20;</span> </i-col>
-      <i-col class="item" span="8"> <span> col-8; gutter-20;</span> </i-col>
-      <i-col class="item" span="8"> <span> col-8; gutter-20;</span> </i-col>
-    </i-row>
-    <i-row gutter="10">
-      <i-col class="item" span="8"> <span> col-8; gutter-10;</span> </i-col>
-      <i-col class="item" span="8"> <span> col-8; gutter-10;</span> </i-col>
-      <i-col class="item" span="8"> <span> col-8; gutter-10;</span> </i-col>
-    </i-row>
+    <g-row gutter="30">
+      <g-col class="item" span="8"> <span> col-8; gutter-30;</span> </g-col>
+      <g-col class="item" span="8"> <span> col-8; gutter-30;</span> </g-col>
+      <g-col class="item" span="8"> <span> col-8; gutter-30;</span> </g-col>
+    </g-row>
+    <g-row gutter="20">
+      <g-col class="item" span="8"> <span> col-8; gutter-20;</span> </g-col>
+      <g-col class="item" span="8"> <span> col-8; gutter-20;</span> </g-col>
+      <g-col class="item" span="8"> <span> col-8; gutter-20;</span> </g-col>
+    </g-row>
+    <g-row gutter="10">
+      <g-col class="item" span="8"> <span> col-8; gutter-10;</span> </g-col>
+      <g-col class="item" span="8"> <span> col-8; gutter-10;</span> </g-col>
+      <g-col class="item" span="8"> <span> col-8; gutter-10;</span> </g-col>
+    </g-row>
   </div>
 </template>
 ```
@@ -70,18 +70,18 @@ title: 'Grid - 栅格'
 ```vue
 <template>
   <div class="align-wrapper">
-    <i-row class="row" align="left">
-      <i-col class="item" span="8">left</i-col>
-      <i-col class="item" span="8">left</i-col>
-    </i-row>
-    <i-row class="row" align="center">
-      <i-col class="item" span="8">center</i-col>
-      <i-col class="item" span="8">center</i-col>
-    </i-row>
-    <i-row class="row" align="right">
-      <i-col class="item" span="8">right</i-col>
-      <i-col class="item" span="8">right</i-col>
-    </i-row>
+    <g-row class="row" align="left">
+      <g-col class="item" span="8">left</g-col>
+      <g-col class="item" span="8">left</g-col>
+    </g-row>
+    <g-row class="row" align="center">
+      <g-col class="item" span="8">center</g-col>
+      <g-col class="item" span="8">center</g-col>
+    </g-row>
+    <g-row class="row" align="right">
+      <g-col class="item" span="8">right</g-col>
+      <g-col class="item" span="8">right</g-col>
+    </g-row>
   </div>
 </template>
 ```
@@ -103,21 +103,21 @@ title: 'Grid - 栅格'
 ```vue
 <template>
   <div class="offset-wrapper">
-    <i-row class="row">
-      <i-col class="item" span="8"> <span>col-8</span> </i-col>
-      <i-col class="item" span="8"> <span>col-8</span> </i-col>
-      <i-col class="item" span="4" offset="4"> <span>col-4</span> </i-col>
-    </i-row>
-    <i-row class="row">
-      <i-col class="item" span="8"> <span>col-8</span> </i-col>
-      <i-col class="item" span="5" offset="3"> <span>col-5</span> </i-col>
-      <i-col class="item" span="4" offset="4"> <span>col-4</span> </i-col>
-    </i-row>
-    <i-row class="row">
-      <i-col class="item" span="2" offset="6"> <span>col-2</span> </i-col>
-      <i-col class="item" span="5" offset="3"> <span>col-5</span> </i-col>
-      <i-col class="item" span="4" offset="4"> <span>col-4</span> </i-col>
-    </i-row>
+    <g-row class="row">
+      <g-col class="item" span="8"> <span>col-8</span> </g-col>
+      <g-col class="item" span="8"> <span>col-8</span> </g-col>
+      <g-col class="item" span="4" offset="4"> <span>col-4</span> </g-col>
+    </g-row>
+    <g-row class="row">
+      <g-col class="item" span="8"> <span>col-8</span> </g-col>
+      <g-col class="item" span="5" offset="3"> <span>col-5</span> </g-col>
+      <g-col class="item" span="4" offset="4"> <span>col-4</span> </g-col>
+    </g-row>
+    <g-row class="row">
+      <g-col class="item" span="2" offset="6"> <span>col-2</span> </g-col>
+      <g-col class="item" span="5" offset="3"> <span>col-5</span> </g-col>
+      <g-col class="item" span="4" offset="4"> <span>col-4</span> </g-col>
+    </g-row>
   </div>
 </template>
 
@@ -137,8 +137,8 @@ title: 'Grid - 栅格'
 ```vue
 <template>
   <div class="response-wrapper">
-    <i-row class="row">
-      <i-col class="item"
+    <g-row class="row">
+      <g-col class="item"
               span="24"
              :ipad="{span:8}"
              :narrow-pc="{span:4}"
@@ -146,8 +146,8 @@ title: 'Grid - 栅格'
              :wide-pc="{span:1}"
      >
         col
-      </i-col>
-      <i-col class="item"
+      </g-col>
+      <g-col class="item"
               span="24"
              :ipad="{span:16}"
              :narrow-pc="{span:20}"
@@ -155,8 +155,8 @@ title: 'Grid - 栅格'
              :wide-pc="{span:21}"
       >
         col
-      </i-col>
-    </i-row>
+      </g-col>
+    </g-row>
   </div>
 </template>
 ```

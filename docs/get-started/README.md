@@ -38,6 +38,8 @@ export default {
 ```
 
 效果：
+
+&nbsp;
 <ClientOnly>
 <get-started-button-demo></get-started-button-demo>
 </ClientOnly>

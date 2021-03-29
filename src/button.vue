@@ -8,7 +8,7 @@
     </div>
   </button>
 </template>
-<script>
+<script lang="js">
 import Icon from './icon'
 export default {
   name: 'GuluButton',
@@ -30,7 +30,8 @@ export default {
     }
   }
 }
-</script>
+</script >
+
 <style lang="scss" scoped>
 $font-size: 14px;
 $button-height: 32px;
@@ -95,7 +96,7 @@ $border-color-hover: #666;
   }
 
   .loading {
-    animation: spin 2s infinite linear;
+    animation: infinite spin 2s linear  ;
   }
 }
 </style>

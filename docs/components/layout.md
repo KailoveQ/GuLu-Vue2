@@ -2,12 +2,12 @@
 title: 'Layout - 布局'
 ---
 # 布局
-## 预览
+### 预览
 &nbsp;
 <ClientOnly>
 <layout-demo></layout-demo>
 </ClientOnly>
-## 使用方法
+### 使用方法
 ```vue
 <template>
   <div class="wrapper">
@@ -41,9 +41,9 @@ title: 'Layout - 布局'
 </template>
 ```
 
-## 选项
+### 选项
 提供基础布局，样式自定义。
-### 组件概述
+#### 组件概述
 - <span style='color:#3eaf7c;background-color:#F8F8F8'> i-layout </span>：布局容器，其下可嵌套 Header Sider Content Footer 或 Layout 本身，可以放在任何父容器中。
 
 - <span style='color:#3eaf7c;background-color:#F8F8F8'> i-header </span>：顶部布局，其下可嵌套任何元素，只能放在 Layout 中。
