@@ -1,5 +1,5 @@
 {
-  "name": "bear-ui",
+  "name": "bear-ui-demo",
   "version": "1.0.0",
   "description": "这是一个UI框架",
   "main": "dist/index.js",
