@@ -12,7 +12,7 @@ module.exports = {
     sidebar: [
       {
         title:'入门',
-        collapsable: false, // 可选的, 默认值是 true,
+        collapsable: true, // 可选的, 默认值是 true,
         children: [
           '/install/',
           '/get-started/',
@@ -20,8 +20,8 @@ module.exports = {
       },
       {
         title: '组件',
-        collapsable: false, // 可选的, 默认值是 true,
-        sidebarDepth: 2,    // 可选的, 默认值是 1
+        collapsable: true, // 可选的, 默认值是 true,
+        sidebarDepth: 1,    // 可选的, 默认值是 1
         children: [
           '/components/button',
           '/components/input',
