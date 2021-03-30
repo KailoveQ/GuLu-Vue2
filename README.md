@@ -1,5 +1,6 @@
-# 咕噜 一个UI组件
+# bear 一个UI组件
 
+![npm](https://img.shields.io/npm/v/bear-ui-demo)
 [![Build Status](https://travis-ci.com/KailoveQ/GuLu-Vue2.svg?branch=main)](https://travis-ci.com/KailoveQ/GuLu-Vue2)
 
 ## 介绍
@@ -36,7 +37,7 @@
 
 2. 安装 gulu
     ```
-    npm i --save gulu-vue2-demo
+    npm i --save bear-ui-demo
     ```
 3. 引入 gulu
     ```vue
@@ -50,11 +51,6 @@
         }
     }
       ```
-4. 引入 svg symbols
-
-  ```
-  <script src="//at.alicdn.com/t/font_2405699_c00q8n018cl.js"></script>
-  ```
 
 ## 文档
 
@@ -66,10 +62,19 @@
   button轮子 icon轮子 button-group轮子
 * 0.0.2版本 ：dist/css发布
 
-  button轮子 icon轮子 button-group轮子
+  button轮子 `icon轮子` button-group轮子
 * 0.0.3版本 ：用户不在需要依靠引入轮子的 iconfount
 
   button轮子 icon轮子 button-group轮子
+* 0.0.4版本 ：增加`input轮子` 各种输入框
+  
+* 0.0.5版本 ：增加 `grid轮子` 实现栅格
+* 0.0.5版本 ：增加 `layout轮子` 实现布局
+* 0.0.6版本 ：增加 `tabs轮子` 实现tab切换
+* 0.0.7版本 ：增加 `toast轮子` 弹出提示框
+* 0.0.8版本 ：增加 `popover轮子` 按钮弹出层
+* 1.0.0版本 ：整合测试各轮子的使用，发布上线！
 ## 联系方式
-
+邮箱：11143366961@qq.com
 ## 贡献代码
+Kai
