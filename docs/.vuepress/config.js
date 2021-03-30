@@ -15,6 +15,7 @@ module.exports = {
         title:'入门',
         collapsable: true, // 可选的, 默认值是 true,
         children: [
+          '/introduction/',
           '/install/',
           '/get-started/',
         ]
