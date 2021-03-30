@@ -21,5 +21,5 @@ git commit -m 'deploy'
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 git push -f git@github.com:KailoveQ/Bear-UI.git master:gh-pages
-
+#git push -f git@gitee.com:KailoveQ/bear-ui.git master:gh-pages
 cd -
