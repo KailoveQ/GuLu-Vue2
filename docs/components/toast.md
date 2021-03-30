@@ -74,7 +74,7 @@ title: 'Toast - 弹出提示框'
    ```vue
    <template>
      <div>
-       <i-button @click="auto">自动关闭的 Toast</i-button>
+       <g-button @click="auto">自动关闭的 Toast</g-button>
      </div>
    </template>
    <script>

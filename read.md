@@ -54,3 +54,5 @@ rm -rf node_modules
 yarn install
 npx vuepress dev docs 不报错
 ```
+
+yarn docs:dev

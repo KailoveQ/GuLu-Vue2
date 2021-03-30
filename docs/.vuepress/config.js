@@ -1,5 +1,5 @@
 module.exports = {
-  base:'/bear-ui/',
+  base:'/Bear-UI/',
   title: 'Bear UI',
   description: '一个好用的 UI 框架',
   themeConfig: {
@@ -30,6 +30,7 @@ module.exports = {
           '/components/tabs',
           '/components/toast',
           '/components/popover',
+          '/components/collapse',
         ],
       }
     ],

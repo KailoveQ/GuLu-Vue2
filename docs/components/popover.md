@@ -11,26 +11,28 @@ title: 'Popover - 弹出层'
 ```vue
 <template>
   <div class="popover-wrapper">
-    <i-popover position="bottom">
+    <h2>预览</h2>
+    <g-popover position="bottom">
       <template slot="content">
         popover 中的内容
       </template>
-      <i-button>下方显示内容</i-button>
-    </i-popover>
-    <i-popover>
+      <g-button>下方显示内容</g-button>
+    </g-popover>
+    <g-popover>
       <template slot="content">
         popover 中的内容
       </template>
-      <i-button>点击显示</i-button>
-    </i-popover>
-    <i-popover trigger="hover">
+      <g-button>点击显示</g-button>
+    </g-popover>
+    <g-popover trigger="hover">
       <template slot="content">
         popover 中的内容
       </template>
-      <i-button>hover 显示内容</i-button>
-    </i-popover>
+      <g-button>hover 显示内容</g-button>
+    </g-popover>
+    <h2>使用方法</h2>
   </div>
-</template>
+</template> 
 ```
 &nbsp;
 <ClientOnly>
