@@ -1,7 +1,7 @@
 module.exports = {
-  base:'/bear-ui/',
+  // base:'/bear-ui/',
+  base:'/Bear-UI/',
   title: 'Bear UI',
-  // title: 'bear ui',
   description: '一个好用的 UI 框架',
   themeConfig: {
     displayAllHeaders: true,
